@@ -1,6 +1,6 @@
 # IT420 Class
 
-To download the ansible deploy files that can be used for the cloud
+To download the ansible deploy files that can be used to deploy your own lab
 URL: https://drive.google.com/file/d/1G_aZzHVrOynI03Cl5gjMPGkcd0kiPhrf/view?usp=sharing
 
 The powershell script is for configuring ansible on windows...
