@@ -1,7 +1,7 @@
 # IT420 Class
 
 To download the ansible deploy files that can be used to deploy your own lab
-URL: https://drive.google.com/file/d/1G_aZzHVrOynI03Cl5gjMPGkcd0kiPhrf/view?usp=sharing
+URL: https://drive.google.com/file/d/1e25EXHnW9Uq3lgaIA6ZYuJUCY9_FKugz/view?usp=sharing
 
 Slides: https://drive.google.com/drive/folders/1mUI8rKCRnaESlX_JCPxWLKiBq5Aem8OI?usp=sharing
 
