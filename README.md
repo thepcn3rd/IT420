@@ -3,7 +3,7 @@
 To download the ansible deploy files that can be used to deploy your own lab
 URL: https://drive.google.com/file/d/1e25EXHnW9Uq3lgaIA6ZYuJUCY9_FKugz/view?usp=sharing
 
-Slides: https://drive.google.com/drive/folders/1mUI8rKCRnaESlX_JCPxWLKiBq5Aem8OI?usp=sharing
+Slides: https://drive.google.com/drive/folders/1mUI8rKCRnaESlX_JCPxWLKiBq5Aem8OI?usp=share_link
 
 Videos are located in playlists on Youtube... Here is the green attack path: https://www.youtube.com/playlist?list=PLOfgNa8tbgHx5mqsqy8VMsy9n4H0xORJg
 
